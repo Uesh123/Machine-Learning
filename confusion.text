@@ -1,0 +1,14 @@
+confusion matrix 
+tp= true positive
+tn= true negative
+fp= fale positive
+fn= false negative 
+precision = tp/tp+fp 
+then 
+recall = tp/tp+fp
+then 
+f1 score = 2*p*r/p+r 
+accuracy = tp+tn/tp+fn+fp+tn
+
+sklearn.matrix  1. confusion_matrix
+                2. classification_report
